@@ -1,5 +1,7 @@
 opam-version: "2.0"
+synopsis: "A Coq library doing wonders" # One-line description
+maintainer: "your@email.address"
 version: "0.0.0.2"
-depends: ["coq" "coq-mathcomp"]
+depends: ["coq" "coq-mathcomp-algebra"]
 build: [[make "-j%{jobs}%"]]
 install: [[make "install"]]
