@@ -1,0 +1,5 @@
+opam-version: "2.0"
+version: "0.0.0.2"
+depends: ["coq" "coq-mathcomp"]
+build: [[make "-j%{jobs}%"]]
+install: [[make "install"]]
